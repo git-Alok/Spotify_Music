@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.one {
+    display: flex;
+    /* justify-content: space-between; */
+    /* overflow: hidden; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* position: absolute; */
+    width: 100%;
+}
+
+.two {
+    
+    position: relative;
+    /* flex:30%; */
+    /* width: 100%; */
+    width: 420px;
+
+    /* overflow: hidden; */
+    /* position: sticky; */
+}
+
+
+.two_1 {
+    position: fixed;
+    background-color: #121212;
+    height: 100%;
+    width: 400px;
+    padding: 10px;
+
+}
+
+.he {
+    padding: 1rem;
+    background-color: #232323;
+
+    border-radius: 1rem;
+    margin: 0.75rem 0.25rem 0.75rem 0.25rem;
+}
+
+.he i {
+    color: white;
+    line-height: 3rem;
+    font-size: 1.45rem;
+
+}
+
+#me {
+    opacity: 0.5;
+}
+
+#me:hover {
+    opacity: 1;
+    color: white;
+}
+
+#too {
+    opacity: 0.5;
+}
+
+#too:hover {
+    opacity: 1;
+}
+
+
+.he p1 {
+    color: white;
+    font-size: 1.35rem;
+
+}
+
+
+.it {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.she {
+    /* position: sticky; */
+    top: 0px;
+    height: auto;
+    flex: 65%;
+    background-color: #121212;
+    /* margin-left: 7px; */
+    /* overflow: auto; */
+    color: white;
+}
+
+
+.omg {
+    height: 200px;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin: 0.75rem 0.25rem 0.75rem 0.25rem;
+    padding: 1rem;
+    color: white;
+}
+
+.omg i {
+    font-size: 1.45rem;
+    opacity: 0.7;
+}
+
+.omg p2 {
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.omg button {
+    font-size: 1.1rem;
+    border-radius: 1.7rem;
+    font-weight: 500;
+    height: 2rem;
+    border: none;
+    width: 10rem;
+}
+
+.omg p1 {
+    opacity: 0.7;
+}
+
+.are {
+    height:190px ;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin: 1.7rem 0.25rem 0.75rem 0.25rem;
+    padding: 1rem;
+    color: white;
+}
+
+.are p2 {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.are p3 {
+    line-height: 2rem;
+    position: relative;
+
+}
+
+.you {
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 1.7rem;
+    height: 2rem;
+    width: 10rem;
+}
+
+#she #love i {
+    color: white;
+    font-size: 28px;
+    opacity: 0.8;
+ margin-left: 7px;
+
+}
+
+#she div button {
+    border-radius: 1rem;
+    font-size: 18px;
+
+    
+    padding: 8px;
+    border: none;
+
+
+
+}
+
+#she {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px 20px 5px;
+    border-radius: 0.9rem;
+    background-color: #232323;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    align-items: center;
+    padding: 9px 15px 8px 8px;
+
+}
+
+
+
+.more {
+    width: 12rem;
+    /* border: 2px solid; */
+    height: 20rem;
+    padding-top: 1.6rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    border-radius: 1rem;
+    background-color: #232323;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.more img {
+    width: 11rem;
+    height: 10rem;
+    border-radius: 0.8rem;
+
+}
+
+.it i {
+
+    position: relative;
+    left: 24%;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.8;
+    color: white;
+
+}
